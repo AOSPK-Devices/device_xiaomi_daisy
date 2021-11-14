@@ -41,5 +41,8 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/fstab.qcom
 
+# Security Patch Level
+VENDOR_SECURITY_PATCH := 2021-07-01
+
 # Inherit the proprietary files
 include vendor/xiaomi/daisy/BoardConfigVendor.mk
